@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Djavan Eletricista - Serviços Elétricos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: #0055a5;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .services, .about, .testimonials, .contact {
+      background-color: white;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      padding: 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #003366;
+      border-left: 5px solid #0055a5;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .services li {
+      margin-bottom: 10px;
+      padding-left: 25px;
+      position: relative;
+    }
+
+    .services li::before {
+      content: "✔";
+      color: green;
+      position: absolute;
+      left: 0;
+    }
+
+    .testimonials blockquote {
+      font-style: italic;
+      border-left: 4px solid #ccc;
+      padding-left: 15px;
+      margin-bottom: 20px;
+    }
+
+    .contact p {
+      margin: 10px 0;
+    }
+
+    .whatsapp-button {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .whatsapp-button:hover {
+      background-color: #1ebe5b;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #003366;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Djavan Eletricista</h1>
+    <p>Soluções elétricas com segurança, agilidade e confiança</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#depoimentos">Depoimentos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section class="about" id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou Djavan santos, eletricista profissional com mais de 10 anos de experiência em instalações, manutenções e reparos elétricos residenciais e comerciais. Atendo em toda a região com rapidez, compromisso e foco na segurança.</p>
+  </section>
+
+  <section class="services" id="servicos">
+    <h2>Serviços Oferecidos</h2>
+    <ul>
+      <li>Instalações elétricas residenciais e comerciais</li>
+      <li>Manutenção preventiva e corretiva</li>
+      <li>Instalação de tomadas, interruptores e disjuntores</li>
+      <li>Troca de fiação e quadros de energia</li>
+      <li>Instalação de luminárias e ventiladores</li>
+      <li>Atendimento emergencial 24 horas</li>
+    </ul>
+  </section>
+
+  <section class="testimonials" id="depoimentos">
+    <h2>Depoimentos de Clientes</h2>
+    <blockquote>"Djavan foi extremamente profissional e rápido. Fez a instalação do meu chuveiro com segurança e qualidade!"<br>– Ana Souza</blockquote>
+    <blockquote>"Serviço impecável! Recomendo a todos que precisam de um eletricista de confiança."<br>– Carlos Mendes</blockquote>
+  </section>
+
+  <section class="contact" id="contato">
+    <h2>Entre em Contato</h2>
+    <p><strong>📞 Telefone:</strong> (+55) 11986135695</p>
+    <p><strong>📧 Email:</strong> djavansantosdj@gmail.com</p>
+    <p><strong>📍 Atendo:</strong> São Paulo e região metropolitana</p>
+    <br>
+    <a class="whatsapp-button" href="https://wa.me/5511912345678" target="_blank">Chamar no WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Djavan Eletricista. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
